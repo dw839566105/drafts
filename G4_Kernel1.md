@@ -1,4 +1,4 @@
-# GEANT4 Kernel
+# GEANT4 Kernel1
 
 ![image](https://user-images.githubusercontent.com/25675833/224873814-ad4f46ec-800b-4484-a28f-f52cf8742f9b.png)
 ![image](https://user-images.githubusercontent.com/25675833/224873630-fbe0876b-29b0-438d-a451-a00c4dfa1cbd.png)
@@ -28,6 +28,7 @@ Five base classes with virtual methods the user may override to step during the 
 - [G4UserTrackingAction](https://geant4.kek.jp/Reference/v11.1.0/classG4UserTrackingAction.html)
 - [G4UserStackingAction](https://geant4.kek.jp/Reference/v11.1.0/classG4UserStackingAction.html)
 - [G4UserSteppingAction](https://geant4.kek.jp/Reference/v11.1.0/classG4UserSteppingAction.html)
+
 Default implementation (not purely virtual): Do nothing. Override only the methods you need.
 
 ### G4UserRunAction
@@ -111,7 +112,7 @@ virtual void 	PostUserTrackingAction (const G4Track *)
 Delete unnecessary trajectory. 
 
 void UserSteppingAction(const G4Step*) 
-Kill /  the track 
+Kill / the track 
  
 ### G4UserSteppingAction
 ```
