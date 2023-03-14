@@ -123,3 +123,5 @@ virtual void 	SetSteppingManagerPointer (G4SteppingManager *pValue)
 virtual void 	UserSteppingAction (const G4Step *)
 ```
 Get information about particles; kill / suspend / postpone tracks under specific circumstances; Draw the step (for a track not to be stored as a trajectory)
+
+User-customized `Trajectory` is not addressed here. 
